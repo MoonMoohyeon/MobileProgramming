@@ -1,8 +1,7 @@
 package mp.team8.cofinder.Entity;
 
+import jakarta.persistence.*;
 import lombok.Data;
-
-import javax.persistence.*;
 
 @Entity
 @Table(name = "users")

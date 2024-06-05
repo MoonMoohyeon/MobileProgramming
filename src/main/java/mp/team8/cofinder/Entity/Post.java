@@ -2,7 +2,7 @@ package mp.team8.cofinder.Entity;
 
 import lombok.Data;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
