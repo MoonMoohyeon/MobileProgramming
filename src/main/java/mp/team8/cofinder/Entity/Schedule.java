@@ -11,7 +11,7 @@ import java.time.LocalDate;
 public class Schedule {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long schedule_id;
 
     @ManyToOne
     @JoinColumn(name = "team_id", referencedColumnName = "id")
